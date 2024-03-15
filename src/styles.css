@@ -1,1 +1,87 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary {
+    background-color: #F7ABC1 !important;
+}
+
+.text-primary {
+    color: #F7ABC1 !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #F7ABC1;
+    --bs-btn-border-color: #F7ABC1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #f5c8d5;
+    --bs-btn-hover-border-color: #F7ABC1;
+    --bs-btn-focus-shadow-rgb: 105,125,249;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F7ABC1;
+    --bs-btn-active-border-color: #3b4dba;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #F7ABC1;
+    --bs-btn-disabled-border-color: #F7ABC1;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #F7ABC1;
+    --bs-btn-border-color: #F7ABC1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F7ABC1;
+    --bs-btn-hover-border-color: #F7ABC1;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F7ABC1;
+    --bs-btn-active-border-color: #F7ABC1;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #F7ABC1;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #F7ABC1;
+    --bs-gradient: none;
+}
+
+.btn-secondary {
+    --bs-btn-color: var(--custom-titles-darkGray);
+    --bs-btn-bg: #e4e4e4;
+    --bs-btn-border-color: #dbdada;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #9d9c9c;
+    --bs-btn-hover-border-color: #dbdada;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #565e64;
+    --bs-btn-active-border-color: #51585e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6c757d;
+    --bs-btn-disabled-border-color: #6c757d;
+}
+
+/* Custom text */
+.text-justify {
+    text-align: justify;
+}
+
+.fs-7 {
+    font-size: 0.9rem;
+}
+
+.fs-8 {
+    font-size: 0.8rem;
+}
+
+.fs-9 {
+    font-size: 0.7rem;
+}
+
+.fs-10 {
+    font-size: 0.6rem;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}

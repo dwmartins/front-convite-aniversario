@@ -30,5 +30,5 @@ export class HomeComponent implements OnInit{
         this.showSection2 = sectionNumber === 2;
         this.showSection3 = sectionNumber === 3;
         this.showSection4 = sectionNumber === 4;
-      }
+    }
 }
