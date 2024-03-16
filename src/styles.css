@@ -85,3 +85,26 @@
 .cursor_pointer {
     cursor: pointer;
 }
+/* End Custom text */
+
+/* Custom Inputs */
+.custom_focus:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px 0px rgba(192, 51, 51, 0.788);
+}
+
+.custom_placeholder::placeholder {
+    color: #b1b1b1 !important;
+    font-size: 13px;
+}
+/* End Custom Inputs */
+
+.link_outline_none {
+    text-decoration: none;
+}
+
+.custom_spinner_sm{
+    height: 22px;
+    width: 22px;
+}

@@ -15,3 +15,25 @@ section {
     max-width: 680px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+
+.section-confirm input[type="number"]{
+    width: 70px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.iconSetEscorts {
+    font-size: 48px;
+}
+
+.icon_modal_error {
+    font-size: 62px;
+}

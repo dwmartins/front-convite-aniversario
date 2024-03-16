@@ -13,7 +13,7 @@ export class GuestsService {
 
     constructor() { }
 
-    newGuests(guests: Guests) {
+    newGuests(guests: Guests, ) {
         return this.httpClient.post<Guests>(`${this.API_URL}/guests`, guests);
     }
 
